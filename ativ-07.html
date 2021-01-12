@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+</head>
+<body>
+    <h3><a href="ativ-08.html">Home</h3>
+    <h1>Imagem Flexível</h1>
+    <br>
+    <p>Você está vendo a imagem completa? Experimente aumentar ou diminuir o tamanho de sua janela e veja a imagem se adaptar.</p> 
+
+    <!--<p><img src="images/snowman-5815700_1281.png"  alt="Boneco" width="auto" height="auto">
+    </p>-->
+
+    <!--Uma nova solução: <picture>
+Esta tag permite tratar imagens responsivas da mesma forma que tratamos arquivos de áudio com a tag <audio> ou vídeos com a tag <video> . Também permite que você aponte várias imagens através da tag source.-->
+
+    <picture>
+        <source media="(min-width:900px)" srcset="images/sapo-g.png">
+        <source media="(min-width:650px)" srcset="images/sapo-m.png">
+        <source media="(min-width:465px)" srcset="images/sapo-p.png">
+        <img src="images/sapo-p.png">
+    </picture>
+</body>
+</html>

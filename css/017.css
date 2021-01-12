@@ -1,0 +1,57 @@
+/**{
+    font-size: 30px;
+}
+
+.titulo{
+    font-size: 60px;
+    text-align: center;
+    margin: 1px;
+}
+.paisagem{
+    width: 500px;
+    display: block;
+    margin: 1px;
+    padding: 1px;
+}
+
+.texto-01-colunas{
+    column-count: 2;
+    column-gap: 50px;
+    text-align: justify;
+}
+
+.texto-02-colunas{
+    column-count: 2;
+    column-gap: 50px;
+    text-align: justify;
+}*/
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 8px solid green;
+    padding-bottom: 10px;
+    font-size: 45px;
+}
+
+.pagina{
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.coluna-esquerda,.coluna-direita{
+    padding: 10px;
+    text-align: justify;
+}
+.paisagem{
+    width: 700px;
+    display: block;
+    margin: 1px;
+    padding: 1px;
+}
