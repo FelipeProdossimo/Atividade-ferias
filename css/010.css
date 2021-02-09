@@ -1,0 +1,16 @@
+*{
+    text-align: center;
+}
+.tabela-chocolate{
+    border: 1px solid black;
+}
+.tabela-chocolate th{
+    border: indigo;
+    background: lawngreen;
+    color: blueviolet;
+    font-size: 16px;
+    padding: 10px;
+}
+.tabela-chocolate td{
+    border: 1px solid steelblue;
+}
